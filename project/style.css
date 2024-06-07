@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar h1{
+    text-align: center;
+    color: rgb(4 44 100);
+}
+
+ .nav-bar div{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(182, 207, 211);
+    opacity: 90%;
+ }
+
+.nav-bar div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 120px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(4 44 100);
+    cursor: pointer;
+}
+.nav-bar div ul li{
+    padding: 10px;
+    transition: 1s;
+}
+.nav-bar div ul li:hover{
+    background-color: rgb(4 44 100);
+    color: #ffff;
+    border-radius: 10px;
+
+    
+}
+
+
+.mid-content{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mid-content img{
+    height: 500px;
+      }
+
+
+.third-content h1{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(4 44 100);
+}      
+
+.third-content p{
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(101 111 127);
+    line-height: 25px;
+}
+
+.third-content div{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.third-content div button{
+    padding: 15px 32px;
+    background-color: rgb(216 165 22);
+    border: none;
+    color: #ffff;
+    border-radius: 25px;
+    font-size: 17px;
+    transition: 1s;
+   
+}
+
+.third-content div button:hover{
+        
+    background-color: rgb(4 44 100);
+}
+
+
+.our-team{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+   
+}
+
+.our-team div img{
+    height: 200px;
+    width: 200px;
+    clip-path: circle(50%);
+    object-fit: cover;
+}
+
+.our-team div h3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: #ffff;
+}
+
+.our-team div p{
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+    color: #ffff;
+}
+
+
+.our-team div div{
+    text-align: center;
+    color: #ffff;
+    padding-bottom: 35px;
+}
+
+.our-team div div i{
+    padding: 3px;
+}
+
+.services-main h1{
+    text-align: center;
+    color: rgb(4 44 100);
+}
+
+.services-main{
+    width: 60%;
+    margin: 40px auto auto auto;
+
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services i{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    color: rgb(74 117 205);
+}
+
+.services h3{
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    color: rgb(74 117 205);
+}
+
+.services p{
+    text-align: center;
+    color: rgb(96, 92, 88);
+}
+ 
+.getinTouch{
+    background-color: rgb(238, 162, 32);
+    color: #ffff;
+    margin-top: 40px;
+}
+
+.getinTouch h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+
+}
+
+.getinTouch section{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+
+.getinTouch section div i{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.getinTouch section div h3{
+    text-align: center;  
+    margin-top: 10px;  
+}
+
+.getinTouch section div p{
+    text-align: center;
+}
+
+iframe{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+    height: 450px;
+    padding-bottom: 40px;
+}
+
+footer{
+    background-color: #2771bb;
+    color: #ffff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer div section{
+    margin-top: 30px;
+    
+}
+
+footer section i{
+
+    font-size: 20px;
+    padding-left: 12px;
+    
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 60px;
+    
+    margin-top: 20px;
+   
+}
+
+footer h1{
+    padding-top: 20px;
+   
+}

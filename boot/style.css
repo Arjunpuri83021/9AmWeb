@@ -1,0 +1,25 @@
+.nav-link{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+
+.nav-link:hover{
+    background-color: rgb(94, 163, 236);
+    border-radius: 10px;
+    color: #ffffff;
+}
+.navbar-brand{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    box-shadow: rgba(206, 135, 135, 0.1) 0px 4px 12px;
+    padding: 10px;
+    
+
+}
+
